@@ -26,7 +26,7 @@ namespace BudgetTrack
 			bool val = false;
 			try
 			{
-				string connectionString = "server=62.171.130.151; user=hospitalsf_home;Password=shahree4613; database=hospitalsf_home; Convert Zero Datetime=True;";
+				string connectionString = "";
 				MySqlConnection myConnection = new MySqlConnection(connectionString);
 				myConnection.Open();
 				MyConnection = myConnection;
